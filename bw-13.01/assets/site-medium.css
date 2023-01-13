@@ -1,0 +1,72 @@
+header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+}
+nav {
+  background-color: #ffc017;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.logo-nav {
+  height: 25px;
+}
+.logo-nav:hover {
+  cursor: pointer;
+}
+#lista {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  flex-direction: row;
+}
+.items {
+  padding-right: 10px;
+}
+.items:hover {
+  cursor: pointer;
+}
+#button-nav {
+  background-color: #191919;
+  padding: 10px 15px;
+  border-radius: 50px;
+}
+#button-nav a {
+  text-decoration: none;
+  color: white;
+}
+.sottoPar {
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+}
+.curioso {
+  font-size: 106px;
+  font-family: "Spectral", serif, italic;
+  margin: 0;
+}
+.scopri {
+  font-size: 24px;
+  font-weight: 400;
+}
+#bottoneSottoPar {
+  font-size: 22px;
+  width: 213px;
+  padding: 7px 20px 9px;
+  text-decoration: none;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 50px;
+  background-color: #191919;
+  color: white;
+}
+.parteSx {
+  display: flex;
+  flex-direction: column;
+}
