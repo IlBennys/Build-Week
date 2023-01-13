@@ -87,6 +87,7 @@ section {
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
 }
 .intestazione {
   display: flex;
@@ -163,6 +164,9 @@ article {
   overflow: hidden;
   border: 0.1px solid lightgray;
   margin-right: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .secondaInt {
   display: flex;
@@ -172,6 +176,8 @@ article {
 }
 .stella {
   display: flex;
+  color: gray;
+  margin-top: 10px;
 }
 .spannami {
   background-color: #e6e6e6;
@@ -182,7 +188,18 @@ article {
 }
 .sezione {
   display: flex;
+  margin-bottom: 5%;
 }
 .imgIntBass {
   width: 250px;
+}
+.neretto {
+  font-weight: 900;
+  font-size: x-large;
+}
+.nelMezzo {
+  color: gray;
+}
+.mark {
+  margin-right: 20px;
 }
