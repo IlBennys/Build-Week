@@ -80,20 +80,31 @@ nav {
   margin-left: 250px;
   flex-direction: column;
 }
-main {
+section {
+  border-bottom: 1px solid lightgray;
   background-color: #ffffff;
   z-index: 1;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
 }
 .intestazione {
   display: flex;
-  margin-left: 250px;
+  margin-left: 9%;
 }
-.articoli {
-  margin-left: 250px;
+.articoli1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.articoli2 {
+  display: flex;
+  justify-content: space-around;
 }
 .numero {
+  font-weight: 800;
   color: #efebe8;
-  font-size: 30px;
+  font-size: 40px;
   margin-right: 10px;
 }
 .loghino {
@@ -113,6 +124,7 @@ main {
 }
 article {
   display: flex;
+  width: 350px;
 }
 .profilo {
   align-content: center;
@@ -121,8 +133,20 @@ article {
 }
 .city {
   font-weight: 700;
+  margin: 0;
+  line-height: 20px;
 }
 .data {
   font-size: 13px;
   color: rgba(117, 117, 117, 1);
+  display: flex;
+  align-items: center;
+}
+.trend {
+  font-weight: 500;
+  font-size: 15px;
+}
+.intestazione img {
+  width: 25px;
+  padding-right: 10px;
 }
