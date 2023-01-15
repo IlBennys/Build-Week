@@ -17,15 +17,166 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <style>
+      @media screen and (min-width: 368px) and (max-width: 568px) {
+        .parteSx {
+          margin: 0;
+        }
+        .secondaInt {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          width: 100%;
+        }
+        .tutto {
+          display: flex;
+          padding-left: 20px;
+          flex-direction: column;
+          padding-right: 20px;
+        }
+      }
+      .mom {
+        display: flex;
+        align-items: flex-end;
+      }
+      .imgIntBass {
+        width: 120px;
+      }
+      .sezione {
+        display: flex;
+        margin-bottom: 5%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      svg {
+        display: none;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+      }
+      .articoli1,
+      .articoli2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .sottoPar {
+        background-color: #ffc017;
+        border-bottom: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 315px;
+      }
+      .partissima {
+        align-items: flex-start;
+        padding-left: 20px;
+      }
+      .curioso {
+        font-size: 71px;
+      }
+      #queste3 {
+        display: none;
+      }
+      .tuttoDiscover {
+        display: block;
+        position: relative;
+        top: 5px;
+        left: 1px;
+      }
+
+      @media screen and (min-width: 569px) and (max-width: 1999px) {
+        .articoli1,
+        .articoli2 {
+          display: flex;
+          width: 100%;
+          flex-direction: row;
+          align-items: center;
+        }
+        #queste3 {
+          display: inline;
+        }
+        .parteSx {
+          display: flex;
+          margin-top: 3px;
+          margin-left: 20px;
+          flex-direction: column;
+        }
+        .sottoPar {
+          height: 440px;
+        }
+        svg {
+          display: block;
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        .sezione {
+          display: flex;
+          margin-bottom: 5%;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          width: 100%;
+        }
+        .tuttoDiscover {
+          display: flex;
+          position: relative;
+          top: -1387px;
+          left: 837px;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .curioso {
+          font-size: 113px;
+        }
+        .sottoPar {
+          height: 530px;
+        }
+        .tutto {
+          padding-left: 25px;
+        }
+        .bottoncini {
+          justify-content: space-between;
+          align-items: center;
+          align-content: center;
+          width: 307px;
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .uli {
+          display: flex;
+          justify-content: space-between;
+          list-style-type: none;
+          flex-wrap: wrap;
+          color: rgba(117, 117, 117, 1);
+          width: 267px;
+          padding-left: 0px;
+        }
+        .b00 {
+          text-align: center;
+          border: 1px solid rgba(230, 230, 230, 1);
+          padding: 6px 16px;
+          margin-right: 8px;
+          display: flex;
+          margin-bottom: 5px;
+          flex-wrap: wrap;
+          width: 33%;
+          flex-direction: column;
+        }
+      }
+    </style>
     <title>MEDIUM SITE</title>
   </head>
   <body>
     <nav>
       <img class="logo-nav" src="./imgs/svg/logo.svg" alt="logo-picture" />
       <ul id="lista">
-        <li class="items">Our story</li>
-        <li class="items">Membership</li>
-        <li class="items">Write</li>
+        <li id="queste3" class="items">Our story</li>
+        <li id="queste3" class="items">Membership</li>
+        <li id="queste3" class="items">Write</li>
         <li class="items">Sign In</li>
         <li id="button-nav" class="items">
           <a href="https://medium.com/"> Get started</a>
@@ -9251,7 +9402,7 @@
       </div>
     </header>
     <main>
-      <section>
+      <section class="partissima">
         <div class="intestazione">
           <img src="./imgs/svg/trending.svg" alt="icon-arrow" />
           <p class="trend">TRENDING ON MIDIUM</p>
@@ -9387,7 +9538,7 @@
                 </div>
               </div>
             </div>
-            <div>
+            <div class="mom">
               <img class="mark" src="./imgs/svg/bookmark.svg" alt="mark" />
               <img class="imgIntBass" src="./imgs/image08.jpeg" alt="girl" />
             </div>
@@ -9412,7 +9563,7 @@
                 </div>
               </div>
             </div>
-            <div>
+            <div class="mom">
               <img class="mark" src="./imgs/svg/bookmark.svg" alt="mark" />
               <img class="imgIntBass" src="./imgs/image10.jpeg" alt="girl" />
             </div>
@@ -9441,7 +9592,7 @@
                 </div>
               </div>
             </div>
-            <div>
+            <div class="mom">
               <img class="mark" src="./imgs/svg/bookmark.svg" alt="mark" />
               <img class="imgIntBass" src="./imgs/image12.png" alt="girl" />
             </div>
@@ -9466,7 +9617,7 @@
                 </div>
               </div>
             </div>
-            <div>
+            <div class="mom">
               <img class="mark" src="./imgs/svg/bookmark.svg" alt="mark" />
               <img class="imgIntBass" src="./imgs/image14.png" alt="girl" />
             </div>
@@ -9493,7 +9644,7 @@
                 </div>
               </div>
             </div>
-            <div>
+            <div class="mom">
               <img class="mark" src="./imgs/svg/bookmark.svg" alt="mark" />
               <img class="imgIntBass" src="./imgs/image16.jpg" alt="girl" />
             </div>
@@ -9520,7 +9671,7 @@
                 </div>
               </div>
             </div>
-            <div>
+            <div class="mom">
               <img class="mark" src="./imgs/svg/bookmark.svg" alt="mark" />
               <img class="imgIntBass" src="./imgs/image18.jpeg" alt="girl" />
             </div>
@@ -9548,7 +9699,7 @@
                 </div>
               </div>
             </div>
-            <div>
+            <div class="mom">
               <img class="mark" src="./imgs/svg/bookmark.svg" alt="mark" />
               <img class="imgIntBass" src="./imgs/image20.jpg" alt="girl" />
             </div>
@@ -9567,8 +9718,10 @@
                 <div class="b00"><p>Machine</p></div>
                 <div class="b00"><p>Productivity</p></div>
                 <div class="b00"><p>Politics</p></div>
+
                 <div class="linea"></div>
               </div>
+
               <div class="footer">
                 <ul class="uli">
                   <li>Help</li>

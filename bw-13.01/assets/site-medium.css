@@ -208,9 +208,12 @@ article {
 }
 .b00 {
   text-align: center;
-  border: 1px solid lightgray;
+  border: 1px solid rgba(230, 230, 230, 1);
   width: 140px;
-  color: rgba(117, 117, 117, 1);
+  padding: 6px 16px;
+  margin-right: 8px;
+  display: inline-block;
+  margin-bottom: 5px;
 }
 .bottoncini {
   display: flex;
