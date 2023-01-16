@@ -96,6 +96,11 @@
           flex-direction: row;
           align-items: center;
         }
+        .Parti {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }
         #queste3 {
           display: inline;
         }
@@ -107,6 +112,13 @@
         }
         .sottoPar {
           height: 440px;
+        }
+        .bottoncini {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          align-content: center;
+          width: 307px;
         }
         svg {
           display: block;
@@ -120,14 +132,6 @@
           justify-content: flex-start;
           align-items: center;
           width: 100%;
-        }
-        .tuttoDiscover {
-          display: flex;
-          position: relative;
-          top: -1387px;
-          left: 837px;
-          flex-direction: column;
-          align-items: flex-start;
         }
         .curioso {
           font-size: 113px;
@@ -165,6 +169,10 @@
           flex-wrap: wrap;
           width: 33%;
           flex-direction: column;
+        }
+        .Parti {
+          display: flex;
+          justify-content: space-between;
         }
       }
     </style>
@@ -9518,7 +9526,7 @@
           </article>
         </div>
       </section>
-      <div class="2Parti">
+      <div class="Parti">
         <div class="tutto">
           <div class="sezione">
             <div class="intestazioneBassa">
@@ -9704,40 +9712,39 @@
               <img class="imgIntBass" src="./imgs/image20.jpg" alt="girl" />
             </div>
           </div>
-
-          <aside class="accanto">
-            <div class="tuttoDiscover">
-              <p class="x">Discover more of what matters to you</p>
-              <div class="bottoncini">
-                <div class="b00"><p>Programming</p></div>
-                <div class="b00"><p>Data Science</p></div>
-                <div class="b00"><p>Technology</p></div>
-                <div class="b00"><p>Self Improvement</p></div>
-                <div class="b00"><p>Writing</p></div>
-                <div class="b00"><p>Relationships</p></div>
-                <div class="b00"><p>Machine</p></div>
-                <div class="b00"><p>Productivity</p></div>
-                <div class="b00"><p>Politics</p></div>
-
-                <div class="linea"></div>
-              </div>
-
-              <div class="footer">
-                <ul class="uli">
-                  <li>Help</li>
-                  <li>Status</li>
-                  <li>Writers</li>
-                  <li>Blog</li>
-                  <li>Careers</li>
-                  <li>Privacy</li>
-                  <li>Terms</li>
-                  <li>About</li>
-                  <li>Knowable</li>
-                </ul>
-              </div>
-            </div>
-          </aside>
         </div>
+        <aside class="accanto">
+          <div class="tuttoDiscover">
+            <p class="x">Discover more of what matters to you</p>
+            <div class="bottoncini">
+              <div class="b00"><p>Programming</p></div>
+              <div class="b00"><p>Data Science</p></div>
+              <div class="b00"><p>Technology</p></div>
+              <div class="b00"><p>Self Improvement</p></div>
+              <div class="b00"><p>Writing</p></div>
+              <div class="b00"><p>Relationships</p></div>
+              <div class="b00"><p>Machine</p></div>
+              <div class="b00"><p>Productivity</p></div>
+              <div class="b00"><p>Politics</p></div>
+
+              <div class="linea"></div>
+            </div>
+
+            <div class="footer">
+              <ul class="uli">
+                <li>Help</li>
+                <li>Status</li>
+                <li>Writers</li>
+                <li>Blog</li>
+                <li>Careers</li>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>About</li>
+                <li>Knowable</li>
+              </ul>
+            </div>
+          </div>
+        </aside>
       </div>
     </main>
   </body>

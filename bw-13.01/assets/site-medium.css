@@ -188,6 +188,7 @@ article {
 }
 .sezione {
   display: flex;
+  justify-content: flex-start;
   margin-bottom: 5%;
 }
 .imgIntBass {
@@ -244,6 +245,6 @@ article {
 }
 .x {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   font-weight: bold;
 }
