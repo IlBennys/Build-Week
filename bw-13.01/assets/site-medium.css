@@ -79,6 +79,7 @@ nav {
   background-color: #191919;
   color: white;
   margin-top: 20px;
+  cursor: pointer;
 }
 .parteSx {
   display: flex;
@@ -121,6 +122,7 @@ section {
 }
 .intestazione-logo {
   display: flex;
+  cursor: pointer;
   align-items: flex-start;
   flex-direction: column;
   line-height: 35px;
@@ -196,6 +198,7 @@ article {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 5%;
+  cursor: pointer;
 }
 .imgIntBass {
   width: 250px;
@@ -228,6 +231,7 @@ article {
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
+  cursor: pointer;
   width: 307px;
 }
 .linea {
@@ -242,6 +246,7 @@ article {
   flex-wrap: wrap;
   color: rgba(117, 117, 117, 1);
   width: 267px;
+  cursor: pointer;
 }
 .tuttoDiscover {
   position: absolute;
