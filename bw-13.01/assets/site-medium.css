@@ -16,6 +16,9 @@ nav {
   z-index: 2;
   top: 0;
 }
+.bianca {
+  background-color: white;
+}
 .logo-nav {
   height: 25px;
 }
@@ -34,14 +37,17 @@ nav {
 .items:hover {
   cursor: pointer;
 }
-#button-nav {
+.button-nav {
   background-color: #191919;
   padding: 10px 15px;
   border-radius: 50px;
 }
-#button-nav a {
+.button-nav a {
   text-decoration: none;
   color: white;
+}
+.button-verde {
+  background-color: green;
 }
 .sottoPar {
   background-color: #ffc017;

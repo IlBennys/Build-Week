@@ -18,7 +18,7 @@
       rel="stylesheet"
     />
     <style>
-      @media screen and (min-width: 368px) and (max-width: 568px) {
+      @media screen and (min-width: 400px) and (max-width: 568px) {
         .parteSx {
           margin: 0;
         }
@@ -98,7 +98,7 @@
         }
         .Parti {
           display: flex;
-          flex-direction: row;
+          flex-direction: column-reverse;
           justify-content: space-between;
         }
         #queste3 {
@@ -116,12 +116,15 @@
         .bottoncini {
           display: flex;
           justify-content: center;
-          flex-wrap: wrap;
+          flex-wrap: nowrap;
           align-content: center;
           width: 307px;
         }
         svg {
           display: block;
+        }
+        .accanto {
+          display: flex;
         }
       }
       @media screen and (min-width: 1200px) {
@@ -172,6 +175,7 @@
         }
         .Parti {
           display: flex;
+          flex-direction: row;
           justify-content: space-between;
         }
       }
@@ -186,7 +190,7 @@
         <li id="queste3" class="items">Membership</li>
         <li id="queste3" class="items">Write</li>
         <li class="items">Sign In</li>
-        <li id="button-nav" class="items">
+        <li class="button-nav" class="items">
           <a href="https://medium.com/"> Get started</a>
         </li>
       </ul>
@@ -9747,5 +9751,6 @@
         </aside>
       </div>
     </main>
+    <script src="./site-medium.js"></script>
   </body>
 </html>
